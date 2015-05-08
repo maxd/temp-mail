@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['maxim.dobryakov@gmail.com']
   spec.summary       = %q{Client to temp-mail.ru API.}
   spec.description   = %q{Ruby client to temp-mail.ru API}
-  spec.homepage      = ''
+  spec.homepage      = 'https://github.com/maxd/temp-mail'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -20,5 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency 'bundler', '~> 1.7'
   spec.add_development_dependency 'rake', '~> 10.0'
-  spec.add_development_dependency 'rspec'
+  spec.add_development_dependency 'rspec', '~> 3.2'
 end

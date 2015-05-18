@@ -21,7 +21,7 @@ p client.available_domains
 require 'temp/mail'
 
 client = Temp::Mail::Client.new
-p client.incoming_emails
+p client.incoming_emails('monkey9000@flurred.com')
 ```
 
 [Here](http://api.temp-mail.ru/) is Temp Mail API specification. It describe all fields of e-mail objects in incoming list.
